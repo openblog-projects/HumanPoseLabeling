@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c69656f5dd14516a3a18e42b3b43a4e, type: 3}
+  m_Name: MyAnimationPoseConfig
+  m_EditorClassIdentifier: 
+  animationClip: {fileID: 1827226128182048838, guid: 2f16d9c0940f3498a9961212d3eb8467, type: 3}
+  m_Timestamps:
+  - startOffsetPercent: 0
+    poseLabel: reaching
+  - startOffsetPercent: 0.28
+    poseLabel: taking
+  - startOffsetPercent: 0.65
+    poseLabel: putting_in_pocket
+  - startOffsetPercent: 0.9
+    poseLabel: standing
